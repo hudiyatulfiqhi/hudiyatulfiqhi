@@ -1,4 +1,4 @@
-const txtElement = ['Padang', 'Sumatra Barat', 'Indonesia'];
+const txtElement = ['Payakumbuh', 'Sumatra Barat', 'Indonesia'];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
