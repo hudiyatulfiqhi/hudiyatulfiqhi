@@ -320,6 +320,12 @@ nav .fas{
     #header{
         background-image: url(images/background.jpg);
     }
+    .logo{
+        width: 30%;
+        height: 30%;
+        padding: 0;
+        margin: 0;
+    }
     .header-text{
         margin-bottom: 100%;
         font-size: 16px;
