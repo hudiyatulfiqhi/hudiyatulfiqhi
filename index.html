@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/icon.jpg" type="image/gif" sizes="16x16">
-    <title>Hudiyatul Fiqhi</title>
+    <title> Hudiyatul Fiqhi</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/463f5ecaa4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
@@ -14,12 +14,13 @@
    <div id="header">
     <div class="container">
         <nav>
-            <img src="images/logo.png" alt="logo">
+            <!-- <h1><span>F</span>iqhi</h1> -->
+            <img class="logo" src="images/logo.png" alt="logo">
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Service</a></li>
-                <li><a href="#galery">Gallery</a></li>
+                <li><a href="#galery">Galery</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
@@ -51,12 +52,13 @@
                     <ul>
                         <li><span>HTML</span><br>Design Web HTML</li>
                         <li><span>Photography</span><br>Photography and Videography</li>
-                        <li><span>Editing</span><br>Editing a Photo and Video</li>
+                        <li><span>CSS</span><br>Coloring and Design HTML</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="experience">
                     <ul>
-                        <li><span>2022</span><br>Freelacer</li>
+                        <li><span>2021</span><br>Magang</li>
+                        <li><span>2022</span><br>Freelance</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="educations">
@@ -65,10 +67,8 @@
                         <li><span>2019-2022</span><br>Unioversitas Putra Indonesia "YPTK" Padang</li>
                     </ul>
                 </div>
-                </div>
-                
+                </div>  
     </div>
-
     </div>
    </div>
 
@@ -89,10 +89,10 @@
                     <a href="https://id.wikipedia.org/wiki/Fotografi">Learn More</a>
                 </div>
                 <div>
-                    <i class="fa-solid fa-scissors"></i>
-                    <h2>Editing</h2>
-                    <p>adalah proses pemilihan, pemotongan, dan penggabungan gambar-gambar sehingga menghasilkan sebuah film/program/tayangan</p>
-                    <a href="https://binus.ac.id/malang/2017/09/what-is-editing/#:~:text=Editing%20adalah%20proses%20pemilihan%2C%20pemotongan,kedua%20adalah%20non%2Dlinear%20editing.">Learn More</a>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>CSS</h2>
+                    <p>adalah salah satu bahasa yang wajib Anda ketahui saat belajar membuat website. Tanpanya, tampilan website akan kurang menarik, </p>
+                    <a href="https://www.niagahoster.co.id/blog/pengertian-css/">Learn More</a>
                 </div>
             </div>
         </div>
@@ -169,23 +169,6 @@
     }
 
    </script>
-<script>
-    const scriptURL = '<https://script.google.com/macros/s/AKfycbx7loXGQAYGSdsj72E_DnU5BFj4Bu4plZq4AzRZyqWdpN2-DVpN_5valmvFcg-S1t2MhQ/exec>'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
-        .catch(error => console.error('Error!', error.message))
-            msg.innerHTML = "Message Send Succesfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
-    })
-  </script>
   <script src="js/script.js"></script>
 </body>
 </html>
