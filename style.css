@@ -30,8 +30,8 @@ nav{
 }
 
 .logo{
-    width: 140px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     padding: 0;
     margin: 0;
     border-radius: 50%;
@@ -323,8 +323,8 @@ nav .fas{
         background-image: url(images/begron.jpg);
     }
     .logo{
-        width: 140px;
-        height: 20px;
+        width: 80px;
+        height: 80px;
         padding: 0;
         margin: 0;
         border-radius: 50%;
