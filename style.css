@@ -29,13 +29,13 @@ nav{
     flex-wrap: wrap;
 }
 
-.logo{
+/*.logo{
     width: 20%;
     height: 20%;
     padding: 0;
     margin: 0;
     border-radius: 50%;
-}
+}*/
 nav h1{
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif
@@ -45,10 +45,11 @@ nav h1 span{
     font-family: rockwell;
     color: #008cff;
 }
-/* .logo{
+.logo{
     width: 140px;
     height: 20px;
-} */
+    border-radius: 50%;
+}
 
 nav ul li{
     display: inline-block;
