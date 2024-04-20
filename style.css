@@ -46,8 +46,8 @@ nav h1 span{
     color: #008cff;
 }
 /*.logo{
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
 }*/
 
@@ -323,8 +323,8 @@ nav .fas{
         background-image: url(images/begron.jpg);
     }
     .logo{
-        width: 30%;
-        height: 30%;
+        width: 20%;
+        height: 20%;
         padding: 0;
         margin: 0;
         border-radius: 50%;
