@@ -352,7 +352,7 @@ nav .fas{
         transition: right 0.5s;
     }
     nav ul li{
-        display: blok;
+        display: block;
         margin: 25px;
     }
     nav ul .fas{
